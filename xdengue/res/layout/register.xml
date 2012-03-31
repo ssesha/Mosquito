@@ -20,6 +20,7 @@
             android:id="@+id/register_fname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableRight="@drawable/formvalidationerror"
             android:hint="Firstname"
             android:inputType="textPersonName" >
 
@@ -30,6 +31,7 @@
             android:id="@+id/register_lname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableRight="@drawable/formvalidationerror"
             android:hint="Lastname"
             android:inputType="textPersonName" />
         
@@ -37,6 +39,7 @@
 	        android:id="@+id/register_emailId"
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
+	        android:drawableRight="@drawable/formvalidationerror"
 	        android:hint="Email Address"
 	        android:inputType="textEmailAddress" />
         
@@ -44,6 +47,7 @@
             android:id="@+id/register_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableRight="@drawable/formvalidationerror"
             android:hint="Password"
             android:inputType="textPassword" />
     </LinearLayout>
